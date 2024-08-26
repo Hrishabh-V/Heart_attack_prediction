@@ -36,7 +36,7 @@ To run this app locally, you'll need to have R and RStudio installed. Additional
 
 ```r
 install.packages(c("tidyverse", "caret", "e1071", "randomForest", "caTools", "rmarkdown", "shiny", "shinythemes", "ggplot2", "plotly", "DMwR2"))
-
+```
 ## Usage
 
 - **Load the Model: Ensure the trained model (heart_disease_rf_model.rds) is in the working directory.
@@ -45,7 +45,7 @@ install.packages(c("tidyverse", "caret", "e1071", "randomForest", "caTools", "rm
 
 ```r
 shiny::runApp("path/to/your/app")
-
+```
 - **Interact with the App: Enter patient data into the input fields and click the "Predict" button to get the heart attack risk prediction.
 
 ## Deployment
